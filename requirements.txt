@@ -1,1 +1,6 @@
+# bot dependency
 aiogram==2.0.1
+# network dependency
+numpy
+https://download.pytorch.org/whl/cpu/torch-1.0.1.post2-cp37-cp37m-linux_x86_64.whl
+torchvision
