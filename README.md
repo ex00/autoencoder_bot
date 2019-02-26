@@ -25,6 +25,7 @@ docker run --env-file /path/to/your/env.list --rm autoencoder_bot python /bot/bo
 git clone https://github.com/ex00/autoencoder_bot.git
 cd autoencoder_bot
 set BOT_KEY=00000:YYYYYEEEEEWWWWWWWWWWQQQQQQQQ # it's your bot key
+set MODEL=$(pwd)/autoencoder/saved/model.torch # path to saved model
 pip3 install -r requirements.txt
 python3 /bot/bot.py
 ```
